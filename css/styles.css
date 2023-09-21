@@ -1,0 +1,124 @@
+header{
+    background-image: url('/img/fondo-header.png');
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+
+.row{
+    margin: 0;
+}
+
+.logo{
+    width: 200px;
+}
+
+.intro{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Times New Roman';
+}
+
+a:hover{
+    opacity: 1;
+    background-color: gray;
+}
+
+#row-galeria{
+    background-color: rgb(71, 70, 70);
+}
+
+#row-galeria img{
+    border-radius: 50%;
+}
+
+#row-galeria h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.titulo-galeria{
+    font-size: 40px !important;
+}
+
+#row-info{
+    background-color:#080808;
+}
+
+#row-info h3{
+    font-size: 35px;
+}
+
+.nosotros, .proceso, .precios{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-top: 5%;
+    padding-right: 15%;
+}
+
+
+.logo-nosotros{
+    padding-left: 15%;
+}
+
+#row-artistas{
+    background-color: rgb(71, 70, 70);
+}
+
+#row-artistas h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+#row-proceso{
+    background-color: #080808;
+}
+
+#row-proceso h5, #row-testimonios h5, #row-precios h5{
+    font-size: 35px;
+}
+
+#row-testimonios{
+    background-color: rgb(71, 70, 70);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#row-precios{
+    background-color: #080808;
+}
+
+#row-contacto{
+    background-color: rgb(71, 70, 70);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.input-form-contacto{
+    width: 500px;
+}
+.texto-contacto{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+#row-footer{
+    background-color: #080808;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.derechos{
+    padding-bottom: 20px;
+}
+
+button{
+    width: 200px;
+}
+
+#row-contacto button a{
+    color: black;
+    text-decoration: none;
+}
